@@ -6,5 +6,5 @@ function insert_Row() {
 	<td>New Cell1</td>
 	<td>New Cell2</td>
 	`;
-	table.insertBefore(tr,table.firstChild);
+	table.insertBefore(tr,table.rows[0]);
 }
